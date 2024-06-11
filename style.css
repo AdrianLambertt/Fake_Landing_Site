@@ -15,12 +15,12 @@ body {
     align-items: center;
     justify-content: space-between;
     font-size: 18px;
-    background-color: #1F2937;
+    background-color: hsl(217, 30%, 17%);
     color: #E5E7EB;
-    padding: 10px 100px 30px 100px;
+    padding: 10px 150px 30px 150px;
 }
 
-.header, .join-us-header {
+.header {
     font-size: 24px;
     font-weight: bold;
 }
@@ -42,35 +42,39 @@ body {
     color: #E5E7EB;
     background-color: #1F2937;
     justify-content: space-around;
-    align-items: center;
-    padding: 40px 100px 40px 100px;
+    padding: 20px 250px;
 }
 
 .details {
-    flex-basis: 500px;
+    flex-basis: 800px;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     margin-right: 50px;
+    align-items: center;
 }
 
 /* CHOOSE FONT */
 .h1 {
     font-size: 48px;
-    color: #F9FAF8;
+    color: #FFF;
     font-weight: bold;
-    padding: 10px 0;
+    padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 100px;
 }
 
 .button {
-    color: #E5E7EB;
-    text-align: center;
-    width: 110px;
-    background-color: #1e59b8;
-    border-radius: 8px;
+    font-size: 24px;
     font-weight: bold;
+    color: #E5E7EB;
+    background-color: #1e59b8;
+    border: 0;
+    border-radius: 8px;
     cursor: pointer;
-    margin-top: 16px;
+    padding: 40px 60px;
+    margin-top: 80px;
+    text-align: center;
 }
 
 
@@ -80,6 +84,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F2937;
 }
 
 .information-header {
@@ -98,12 +105,22 @@ body {
 .card {
     max-width: 280px;
     text-align: center;
+    border: 4px solid #1F2937;
+    box-shadow: 2px 4px 16px #2221210f;
+    border-radius: 8px;
+    width: 300px;
 }
 
 .card-img {
-    border: 4px solid #3882F6;
+    width: 200px;
+    height: 100px;
+    border: 4px solid #1F2937;
     border-radius: 16px;
-    margin-bottom: 8px;
+    margin: 10px 0;
+}
+
+.Monarch {
+    height: 200px;
 }
 
 .quote-container {
@@ -152,6 +169,7 @@ body {
 .join-us-header {
     font-size: 20px;
     color: #E5E7EB;
+    font-weight: bold;
 }
 
 .join-us-button {
